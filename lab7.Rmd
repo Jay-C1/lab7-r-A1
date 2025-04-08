@@ -1,0 +1,64 @@
+---
+title: "Group Assignment 1"
+subtitle: 'Lab 7: Measuring latent variables in the social world'
+author: 
+  - Jie Chen
+  - Ziyuan You
+  - Chuoye yan
+  - Qinqin Shen
+  - Yulu Wang
+output:
+  pdf_document:
+    toc: TRUE
+    toc_depth: 3
+    latex_engine: xelatex
+  html_document:
+    toc: no
+    df_print: paged
+header-includes:
+- \usepackage{caption}
+- \captionsetup[figure]{font=scriptsize}
+- \usepackage{sectsty}
+- \allsectionsfont{\color{ForestGreen}}
+mainfont: Arial
+urlcolor: blue
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(psych)
+library(ggpubr)
+```
+
+
+# 1: Introduction
+\textcolor{BurntOrange}{Briefly introduce the aim of the project — e.g., "This project aims to identify key predictors of quality of life using data from the World Values Survey..."}
+
+# 2: Theory
+\textcolor{BurntOrange}{Write 2–3 paragraphs proposing theories about what might influence quality of life. Include reasoning. For example: "We hypothesise that trust in others, level of education, and frequency of religious attendance may positively influence perceived quality of life."}
+
+# 3: Data Loading
+
+# 4: Variable Selection and Description
+Selected Predictors
+\textcolor{BurntOrange}{List and briefly describe the five or more variables you selected to predict quality of life. Mention variable names and their meanings (from the codebook).}
+
+# 5: Data Cleaning Decisions
+\textcolor{BurntOrange}{Explain any recoding, NA handling, variable transformation or filtering you did. Be clear and concise.}
+
+# 6: Data and Methods Section (for Report)
+\textcolor{BurntOrange}{Write a clear explanation of your data source, sample size, variable selection, and methods used (e.g., descriptive stats, factor analysis). This will go into your final report later.}
+
+# 7: Save
+
+
+
+
+
+
+
+
+
+
+
